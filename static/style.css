@@ -1,0 +1,123 @@
+*{
+    align-content: center;
+}
+
+.background_image{
+    background-image: url(./images/St.Anton\ 2015.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Kath_bot_image{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: auto;
+}
+
+.logo{
+    text-align: center;
+    font-size: 70px;
+}
+
+.nav{
+    font-weight:bolder;
+    color:red;
+    text-align: center;
+    font-size: 30px;
+    display:flex;
+    justify-content:space-around;
+    text-decoration:overline;
+}
+
+.Intro_text{
+    text-align: center;
+    font-size: 40px;
+}
+
+.Intro_description{
+    text-align: center;
+    font-size: 40px;
+}
+.warning{
+    text-align: center;
+    font-size: 40px;
+}
+.dare{
+    text-align: center;
+    font-size: 40px;
+}
+
+/* .Kath_bot{
+    text-align: center;
+} */
+
+.card-text-center{
+    align-items: center;
+}
+.Kathbot_says{
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 40px;
+}
+
+.card{
+    align-items: center;
+}
+
+.message-box{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.message_box{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.submit_btn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit_btn:hover{
+    background-color: #3e8e41;
+}
+
+/* .speech_bubble:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -40px;
+	right: auto;
+  top: 30px;
+	bottom: auto;
+	border: 20px solid;
+	border-color: #666 #666 transparent transparent;
+}
+.speech_bubble:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 38px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: lightyellow lightyellow transparent transparent;
+} */

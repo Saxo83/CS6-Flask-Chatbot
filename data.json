@@ -1,0 +1,161 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "How are you today",
+                "What's up"
+            ],
+            "responses": [
+                "Hello there",
+                "Good to see you",
+                "Nice to see you"
+            ]
+        }, 
+        {
+            "tag": "farewell",
+            "patterns": [
+                "goodbye",
+                "bye",
+                "farewell"
+            ],
+            "responses": [
+                "See you soon!",
+                "Goodbye!",
+                "Cya!"
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "be funny",
+                "tell me a joke",
+                "make me laugh"
+            ],
+            "responses": [
+                "What do you call Batman leaving church early?... A Christian Bale.",
+                "I was reading about atheism....turns out it's a non-prophet organization.",
+                "Which body part is most reliable? Well, you can always count on your fingers.",
+                "Well, I got fired from the keyboard factory. My boss said I wasn't putting in enough Shifts. That's when I completely lost CTRL."
+            ]
+        },
+        {
+            "tag": "hal",
+            "patterns": [
+                "open the pod bay doors"
+            ],
+            "responses": [
+                "I'm afraid I can't do that..."
+            ]
+        },
+        {
+            "tag": "Gaming",
+            "patterns": [
+                "Which is better PC or console?"
+            ],
+            "responses": [
+                "PC is better for perfomance and graphics but console is convenient for casual play."
+            ]
+        },
+        {
+            "tag": "Preorder games",
+            "patterns": [
+                "Should I preorder games?"
+            ],
+            "responses": [
+                "Although preordering is a good indication of what potential sales will be like for a game for the company releasing the game. I would not recommend that you preorder as history has told us that big game releases do not tend to be fully finished upon releases and it would be advisable to wait until there has been a patch or two that fixes release day issues and bugs. This will give you a better indication if it's a game that you do actually want to play and is worth your money. Generally indie game developers release better quality games with fewer issues on release day and it would help them if you preordered their games."
+            ]
+        },
+        {
+            "tag": "Music",
+            "patterns":[
+                "What music is good to dance to?",
+                "What's the number 1 song?"
+            ],
+            "responses":[
+                "Music that is good to dance to would need a good beat, pop music is more favourable but there are other genres of music like trance, rock, hip hop, among other genres that would be equally good to dance to.",
+                "That would depend on your music tastes.",
+                "Who listens to the Top 40 anymore?"
+            ]
+        },
+        {
+            "tag": "Formula 1",
+            "patterns": [
+                "Who is the best Formula 1 driver?"
+            ],
+            "responses":[
+                "There are many Formula 1 drivers that would be see as the greatest of all time but it would be difficult to say which one for definite is the best. As the sport is constatnly evolving it would be a bit unfair to compare drivers from different eras of Formula 1 based on the technology of the car at the time. The most successful driver in terms of championships won are both Michael Schumacher and Lewis Hamilton with 7 championship titles each, with Lewis Hamilton having more race wins. With that said everyone has an opinion on who their greatest of all time Formula 1 driver is and they are right to have that opinion. Some other drivers that are considered the greatest of all time are, Ayrton Senna, Sebastian Vettle, Alain Prost, Fernando Alonso and Max Verstappen just to name a few."
+            ]
+        },
+        {
+            "tag": "Irish",
+            "patterns":[
+                "Tell me some Irish.",
+                "What's the craic?",
+                "How's she cutting?",
+                "Bout ye?",
+                "Howareye?"
+            ],
+            "responses":[
+                "Póg mo thóin",
+                "The craic does be good when you're acting the eejit with your friends.",
+                "Is fearr Gaeilge bhriste, ná Béarla cliste.",
+                "Not much craic with meself, what about yourself?",
+                "Grand so."
+            ]
+        },
+        {
+            "tag": "Help",
+            "patterns": [
+                "How can you help me?",
+                "I need help",
+                "Help me, I'm stuck"
+            ],
+            "responses": [
+                "What would you like me to help you with today?",
+                "I can help you with whatever questions you have about a sepcific topic, please sepcify the topic and I will be able to help you further.",
+                "Can you not help yourself?"
+            ]
+        },    
+        {
+            "tag": "Weather",
+            "patterns": [
+                "What's the weather like today?"
+            ],
+            "responses": [
+                "Look out the window and you tell me.",
+                "The weather app on your phone is a good start."
+            ]
+        },    
+        {
+            "tag": "Sports",
+            "patterns": [
+                "What are the top sports in the world?"
+            ],
+            "responses": [
+                "The top 5 most popular sports around the world with estimated fans are Volleyball with around 900 million fans, Tennis with around 1 billion fans, Hockey with around 2 billion fans, Cricket with around 2.5 billion fans, Football with around 4 billion fans"
+            ]
+        },
+        {
+            "tag": "Life",
+            "patterns": [
+                "What's the meaning of life?"
+            ],
+            "responses": [
+                "42",
+                "The meaning of life is what meaning you get out of your life and what makes you happy."
+            ]
+        },
+        {
+            "tag": "Food",
+            "patterns": [
+                "What are good foods to try?"
+            ],
+            "responses": [
+                "There are a few options is you haven't tried them yet. if you like fish then sushi is a good option. Insects have been consumed around the world more frequently compared to the UK and Ireland and they are a good heathly sustainable food and a good source of protien and other vital nutrients."
+            ]
+        }       
+    ]
+}

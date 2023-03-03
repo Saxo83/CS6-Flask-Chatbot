@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}
+    <title>Kaths Chatbot - Chatbot</title>
+    {% endblock %}
+  <body class="text-center">
+    
+    {% block content %}
+    
+    <!-- <h1 class = "Kath_bot"> KathBot! </h1> -->
+    <!-- <p> Flask is a micro web framework written in Python.</p>
+    <p> Applications that use the Flask framework include Pinterest,
+      LinkedIn, and the community web page for Flask itself.</p> -->
+      <br>
+      <br>
+    <div id="chatbox" class="card-text-center">
+        <div id="answerbox">
+            <img class = "Kath_bot_image" src="../static/images/lola-chatbot-1.png" alt="Kath Bot" id="Kath Bot">
+            <br>
+            <div class="card" id="">
+                <h2 class = "Kathbot_says">Kathbot says...</h2>
+                <div class="message-box">
+                {% for answer in response_list %}
+
+                <div class="message">
+                  <p class="glow">{{answer}}</p>
+                </div>
+                
+                <!-- createDiv({{answer|tojson}}, {{loop.index0}}, {{response_list|length}}); -->
+                {% endfor %}
+            </div>
+                <br><br>
+                <form role="form" method='POST' action='/chatbot' class="">
+                  <div class="form-group text-center" id="questionbox">
+                    <input type="text" name="message" class="message_box" id="message-box" placeholder="Enter question" style="max-width: 300px;" autofocus required>
+                  </div>
+                  <button type="submit" style="display: none" class="submit_btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+  </body>
+</html>
